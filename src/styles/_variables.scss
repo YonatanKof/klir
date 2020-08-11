@@ -8,10 +8,22 @@ $width-xs: 480px;
 
 :root {
     --header-height: 96px;
-    --font-family--body: "Heebo", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    --font-family--body: "Heebo", -apple-system, system-ui, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Arial, sans-serif;
     // colors
     --main-color: #00abe6;
+    --main-strong: #007899;
     // size
     --max-width: 1366px;
     --main-padding: 32px;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+h2 {
+    font-size: 1.2em;
+}
+h3 {
+    font-size: 1em;
 }

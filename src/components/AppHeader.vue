@@ -10,7 +10,6 @@
 
 <style lang="scss" scoped>
 header {
-  // display: flex;
   background-color: var(--main-color);
   padding: 0 var(--main-padding);
   .header-warp {
