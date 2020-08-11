@@ -1,12 +1,33 @@
 <template>
   <header>
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h1>Klir</h1>
+    <div class="header-warp">
+      <div class="header-start">
+        <img alt="סמליל קליר" src="../assets/logo.png" />
+      </div>
+    </div>
   </header>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 header {
-  height: var(--header-height);
+  // display: flex;
+  background-color: var(--main-color);
+  padding: 0 var(--main-padding);
+  .header-warp {
+    height: var(--header-height);
+    align-items: center;
+    margin: 0 auto;
+    max-width: var(--max-width);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  .header-start {
+  }
+
+  img {
+    height: 48px;
+  }
 }
 </style>
