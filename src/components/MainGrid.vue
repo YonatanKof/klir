@@ -36,6 +36,7 @@ export default {
   display: grid;
   max-width: var(--max-width);
   margin: 0 auto;
+  grid-template-rows: 256px auto;
   grid-template-areas:
     "sidebar main-banner"
     "sidebar small-banner-grid";
