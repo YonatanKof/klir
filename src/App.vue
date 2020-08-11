@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <AppHeader />
-    <HelloWorld msg="ברוכים הבאים לקליר!"/>
+    <MainGrid />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainGrid from './components/MainGrid.vue'
 import AppHeader from './components/AppHeader.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    MainGrid,
     AppHeader
   }
 }

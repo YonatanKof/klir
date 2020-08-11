@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
 
 :root {
-    --header-height: 64px;
+    --header-height: 96px;
     --font-family--body: "Heebo", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    // colors
+    --main-color: #00abe6;
+    // size
+    --max-width: 1280px;
+    --main-padding: 32px;
 }
