@@ -23,9 +23,6 @@ header {
     flex-direction: row;
     align-items: center;
   }
-  .header-start {
-  }
-
   img {
     height: 48px;
   }
