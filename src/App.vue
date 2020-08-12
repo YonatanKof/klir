@@ -6,16 +6,16 @@
 </template>
 
 <script>
-import MainGrid from './components/MainGrid.vue'
-import AppHeader from './components/AppHeader.vue'
+import MainGrid from "./components/MainGrid.vue";
+import AppHeader from "./components/AppHeader.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     MainGrid,
-    AppHeader
-  }
-}
+    AppHeader,
+  },
+};
 </script>
 
 <style lang="scss">
@@ -23,12 +23,10 @@ export default {
 @import "./styles/variables";
 
 #app {
+  overflow-x: hidden;
   direction: rtl;
   font-family: var(--font-family--body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // text-align: center;
-  // color: #2c3e50;
-  // margin-top: 60px;
 }
 </style>
