@@ -16,6 +16,12 @@ $width-xs: 480px;
     // size
     --max-width: 1366px;
     --main-padding: 32px;
+    @media screen and (max-width: $width-sm) {
+        --main-padding: 24px;
+    }
+    @media screen and (max-width: $width-xs) {
+        --main-padding: 16px;
+    }
 }
 
 h1 {

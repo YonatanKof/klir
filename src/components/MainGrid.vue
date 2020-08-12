@@ -55,6 +55,10 @@ export default {
       "small-banner-grid";
     grid-template-columns: 1fr;
     grid-template-rows: 320px auto auto;
+    grid-gap: 24px;
+  }
+  @media screen and (max-width: $width-sm) {
+    grid-gap: 16 px;
   }
 }
 </style>

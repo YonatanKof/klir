@@ -4,7 +4,13 @@
       <h3>{{ cardTitle }}</h3>
       <h2>{{ cardValue }}</h2>
     </div>
-    <IconBase class :icon-name="cardIconName" icon-color="var(--main-strong)" width="48" height="48">
+    <IconBase
+      class
+      :icon-name="cardIconName"
+      icon-color="var(--main-strong)"
+      width="48"
+      height="48"
+    >
       <slot />
     </IconBase>
   </div>
@@ -19,7 +25,6 @@ export default {
   props: ["cardTitle", "cardValue", "cardIconName"],
   components: {
     IconBase
-    // IconKof,
   },
 };
 </script>
@@ -42,6 +47,7 @@ export default {
     }
   }
   @media screen and (max-width: $width-sm) {
+    margin-bottom: 0;
     &:first-child {
       margin-inline-end: 16px;
     }
